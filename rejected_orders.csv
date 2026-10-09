@@ -1,0 +1,4 @@
+order_id,order_date,customer_id,product_id,product_name,category,quantity,unit_price,region,sales_channel,order_status,rejection_reason
+ORD00005,2025-04-03,CUST0003,P300,Water Bottle,Lifestyle,4,16.0,North,Website,COMPLETED,duplicate_order_id
+ORD_BAD_001,NaT,,P999,Unknown Item,Other,0,-12.0,Mars,Website,COMPLETED,invalid_order_date
+,2025-04-10,CUST0002,P100,Wireless Mouse,Accessories,2,18.5,North,Website,COMPLETED,missing_order_id

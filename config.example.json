@@ -1,0 +1,10 @@
+{
+  "aws_region": "ap-south-1",
+  "bucket_name": "REPLACE-WITH-GLOBALLY-UNIQUE-BUCKET-NAME",
+  "raw_prefix": "raw/orders/",
+  "curated_prefix": "curated/orders/",
+  "quality_prefix": "quality/orders/",
+  "glue_database": "retail_analytics",
+  "glue_table": "curated_orders",
+  "glue_job_name": "retail-orders-etl"
+}

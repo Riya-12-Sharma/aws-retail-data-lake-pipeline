@@ -1,0 +1,8 @@
+{
+  "input_rows": 183,
+  "curated_rows": 180,
+  "rejected_rows": 3,
+  "duplicate_order_ids_rejected": 1,
+  "net_sales_completed_orders": 9275.74,
+  "status": "PASS"
+}

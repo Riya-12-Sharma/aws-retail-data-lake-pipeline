@@ -1,2 +1,82 @@
-# aws-retail-data-lake-pipeline
-End-to-end AWS Data Engineering pipeline using Amazon S3, AWS Glue, PySpark, and Amazon Athena for ETL, data quality validation, data lake storage, and SQL analytics.
+# AWS Retail Data Lake — Sales Dashboard
+
+A data engineering project that cleans retail order data and presents sales insights in Power BI. The project includes Python/Pandas ETL code and supporting AWS Glue and Amazon Athena files.
+
+## Project Overview
+
+The pipeline processes retail order data, separates valid and rejected records, creates a data quality report, and uses the curated data for sales analysis.
+
+## Tech Stack
+
+- Python and Pandas
+- SQL
+- Amazon S3
+- AWS Glue and PySpark
+- Amazon Athena
+- Power BI
+- Git and GitHub
+
+## Project Flow
+
+```text
+Raw Orders CSV → ETL and Data Cleaning → Curated and Rejected CSVs
+                                      → Data Quality Report
+Curated Orders CSV → Power BI Sales Dashboard
+
+AWS components included in the project: Amazon S3, AWS Glue ETL script, and Athena SQL queries.
+```
+
+## Key Features
+
+- Clean and validate retail order data
+- Identify invalid records
+- Produce curated and rejected datasets
+- Generate a data quality report
+- Analyze sales by category, region, and order status
+- Include AWS Glue ETL code and Athena SQL queries
+
+## Power BI Dashboard
+
+- **Total Sales:** 9.28K
+- **Total Orders:** 180
+- **Total Quantity Sold:** 433
+- Sales by Category
+- Sales by Region
+- Orders by Status
+
+These values are based on the current sample dataset.
+
+## Screenshots
+
+### 1. Power BI Sales Dashboard
+
+![Power BI Sales Dashboard](docs/screenshots/dashboard_screenshot.png)
+
+### 2. Project Folder — View 1
+
+![Project Folder View 1](docs/screenshots/project_folder_view_1.png)
+
+### 3. Amazon S3 Bucket and Folders
+
+![Amazon S3 Bucket Folders](docs/screenshots/s3_bucket_folders.png)
+
+### 4. Amazon S3 — Raw Data Upload
+
+![Amazon S3 Raw Upload](docs/screenshots/s3_raw_upload.png)
+
+### 5. Amazon S3 — Processed Data Upload
+
+![Amazon S3 Processed Upload](docs/screenshots/s3_processed_upload.png)
+
+## Future Improvements
+
+- Execute the ETL job in AWS Glue
+- Configure the Glue Data Catalog and run Athena queries
+- Add sales trends and dashboard filters
+- Automate and monitor the pipeline
+
+## Author
+
+**Riya Sharma**  
+B.Tech — Artificial Intelligence & Data Science  
+Aspiring Data Engineer | Python | SQL | AWS | Power BI
