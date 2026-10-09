@@ -50,7 +50,7 @@ These values are based on the current sample dataset.
 
 ### 1. Power BI Sales Dashboard
 
-![Power BI Sales Dashboard](docs/screenshots/dashboard_screenshot.png)
+![Power BI Sales Dashboard](C:\Users\smile\Desktop\aws\project2\aws_retail_data_lake_pipeline\screenshots)
 
 ### 2. Project Folder — View 1
 
